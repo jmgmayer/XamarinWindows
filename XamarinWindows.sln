@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp.iOS", "FirstApp\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp", "FirstApp\FirstApp\FirstApp.csproj", "{6B1C537D-6649-458F-8205-DFB78A244B34}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{62A8F46D-13A8-4D06-BC3A-CE6CE3218B05}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Datos_Perfil\815731\Downloads\XamarinWindows.pdf = ..\..\Datos_Perfil\815731\Downloads\XamarinWindows.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
