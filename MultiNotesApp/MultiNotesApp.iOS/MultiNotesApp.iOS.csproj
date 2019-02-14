@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AE5C4489-D472-491B-AB54-72A1BABC30F1}</ProjectGuid>
+    <ProjectGuid>{9D080036-F3D4-4A09-97AD-E3A1E149F452}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NotesApp.iOS</RootNamespace>
+    <RootNamespace>MultiNotesApp.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>NotesApp.iOS</AssemblyName>
+    <AssemblyName>MultiNotesApp.iOS</AssemblyName>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -127,9 +127,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\NotesApp\NotesApp.csproj">
-      <Project>{CF90B004-B03E-4E5B-874F-65CC8FA3ECE7}</Project>
-      <Name>NotesApp</Name>
+    <ProjectReference Include="..\MultiNotesApp\MultiNotesApp.csproj">
+      <Project>{DC793381-FE74-4A99-9417-D5B0CD7C738F}</Project>
+      <Name>MultiNotesApp</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

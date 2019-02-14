@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{115F1D17-DF58-4E87-9316-73119DFE3A9F}</ProjectGuid>
+    <ProjectGuid>{E49FCA88-BCAF-44FD-B52B-E2DA7FD27789}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>NotesApp.Droid</RootNamespace>
-    <AssemblyName>NotesApp.Android</AssemblyName>
+    <RootNamespace>MultiNotesApp.Droid</RootNamespace>
+    <AssemblyName>MultiNotesApp.Android</AssemblyName>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -92,9 +92,9 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NotesApp\NotesApp.csproj">
-      <Project>{CF90B004-B03E-4E5B-874F-65CC8FA3ECE7}</Project>
-      <Name>NotesApp</Name>
+    <ProjectReference Include="..\MultiNotesApp\MultiNotesApp.csproj">
+      <Project>{DC793381-FE74-4A99-9417-D5B0CD7C738F}</Project>
+      <Name>MultiNotesApp</Name>
     </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
