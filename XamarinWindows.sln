@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp.Android", "FirstAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp.iOS", "FirstApp\FirstApp.iOS\FirstApp.iOS.csproj", "{0DF6F769-65DC-40ED-9F16-34CD6DAB3F51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp", "FirstApp\FirstApp\FirstApp.csproj", "{6B1C537D-6649-458F-8205-DFB78A244B34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstApp", "FirstApp\FirstApp\FirstApp.csproj", "{6B1C537D-6649-458F-8205-DFB78A244B34}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotesApplication", "NotesApplication", "{E6F6D9E9-1189-4C93-9B2B-05A86BC9A91C}"
 EndProject
@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Android", "NotesAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.iOS", "NotesApp\NotesApp.iOS\NotesApp.iOS.csproj", "{AE5C4489-D472-491B-AB54-72A1BABC30F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp", "NotesApp\NotesApp\NotesApp.csproj", "{DFDDEE9E-7CA1-4C1F-87A5-538334482E4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApp", "NotesApp\NotesApp\NotesApp.csproj", "{DFDDEE9E-7CA1-4C1F-87A5-538334482E4D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultipleNotesApplication", "MultipleNotesApplication", "{95C23A0F-B179-4F29-A6B3-65ACA42FAEEB}"
 EndProject
@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiNotesApp.Android", "Mu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiNotesApp.iOS", "MultiNotesApp\MultiNotesApp.iOS\MultiNotesApp.iOS.csproj", "{9D080036-F3D4-4A09-97AD-E3A1E149F452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiNotesApp", "MultiNotesApp\MultiNotesApp\MultiNotesApp.csproj", "{3204924B-CB03-4179-8EF5-8360F71D2B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiNotesApp", "MultiNotesApp\MultiNotesApp\MultiNotesApp.csproj", "{3204924B-CB03-4179-8EF5-8360F71D2B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
